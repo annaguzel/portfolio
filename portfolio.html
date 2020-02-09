@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <title>Anna's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
-    <div id="container">
-      <div id="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+  <a class="navbar-brand order-1" href="https://github.com/annaguzel"target="_blank">by Anna Annaliyeva</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#home">About<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
+      <a class="nav-item nav-link" href="#interests">Interests</a>
 
-      </div>
-      <div id="info">
-        <h1>Welcome to my page</h1>
-        <h2>My name is Anna Annaliyeva.</h2>
-        <h3>Contact Me:</h3>
-        <h3><a href="mailto:annaguzelya@hotmail.com">Email:annaguzelya@hotmail.com</a></h3>
-        <h3><a href="https://github.com/annaguzel">GitHub:annaguzel</a>
+    </div>
+  </div>
+  </div>
+</nav>
+    <div class="container"><!--/about-->
+      <div class="row">
+        <div class="col ">
+          <h3>About Me:</h3>
+          <img class="img-fluid" src="about.jpg" alt="picture">
+          <p class="mt-5">Hi, I'm Anna, Jr.Full Stack Developer with a passion for design.</p>
+          <p>Based in Amman,Jordan.</p>
+        </div>
+        <div class="col ml-5">
+          <h3>Tech Stack:</h3>
+          <img class="img-fluid" src="tech.jpg" alt="picture">
+            <ul>
+                <li><strong>JavaScript</strong></li>
+                <li><strong>React</strong></li>
+                <li><strong>Python</strong></li>
+                <li><strong>Django</strong></li>
+                <li><strong>Bootstrap</strong></li>
+                <li><strong>CSS/Sass</strong></li>
+                <li><strong>NodeJS</strong></li>
+            </ul>
 
-      </div>
-      <div id="hobbies">
-        <h2>Hobbies:</h2>
-        <p>I enjoy doing all kind of arts,you can check my work <a href="https://www.instagram.com/ammanhenna/">here</a>
-        <div id="wrapper">
-          <div class="pic1"><img src="pic1.jpg" alt="picture"></div>
-          <div class="pic2"><img src="pic2.jpg" alt="picture"></div>
-          <div class="pic3"><img src="pic3.jpg" alt="picture"></div>
-          <div class="pic4"><img src="pic4.jpg" alt="picture"></div>
         </div>
       </div>
-      <div id="interests">
-        <h2>Interests:</h2>
-        <ul>
-          <li>Reading</li>
-          <li>Taking cute pictures of my cat</li>
-          <li>Photography</li>
-          <li>Binge-watching Netflix</li>  
-        </ul>
+    </div><!--/about-->
+    <h1 id="hobbies"class="display-4 text-center">Hobbies</h1>
+    <p class="text-center">I enjoy doing all kinds of art,you can check my work <a href="https://www.instagram.com/ammanhenna/">here</a>
+    <div class="row">
+        <div class="col"><img class="img-fluid" src="pic1.jpg" alt="picture"></div>
+        <div class="col"><img class="img-fluid" src="pic2.jpg" alt="picture"></div>
+        <div class="col"><img class="img-fluid" src="pic3.jpg" alt="picture"></div>
+        <div class="col"><img class="img-fluid" src="pic4.jpg" alt="picture"></div>
       </div>
-    </div>
 
+
+    <h1 id="interests"class="display-4 text-center">Interests</h1>
+    <ul class="text-center list-unstyled">
+      <li>Reading</li>
+      <li>Taking cute pictures of my cat</li>
+      <li>Photography</li>
+      <li>Binge-watching Netflix</li>
+    </ul>
+    <h1 class="display-5 text-center">Contact Me:</h1>
+    <h3 class="display-6 text-center"><a href="mailto:annaguzelya@hotmail.com">Email:annaguzelya@hotmail.com</a></h3>
+    <h3 class="display-6 text-center"><a href="https://github.com/annaguzel">GitHub:annaguzel</a>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
