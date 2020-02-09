@@ -1,0 +1,61 @@
+*{
+  font-family: 'EB Garamond', serif;
+}
+#container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:10px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "pic info"
+  "hobbies interests"
+
+
+}
+p{
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 1.4em;
+}
+img {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+#info{
+  background-color: #E0E7EF;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 20%;
+}
+#hobbies{
+  background-color: #E0E7EF;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+#wrapper{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  grid-gap:5px;
+
+
+}
+#pic{
+  background-image: url("./background.jpg");
+  background-position: center;
+  border-radius: 5px;
+}
+#interests{
+  background-color: #E0E7EF;
+  text-align:center;
+  padding-top: 20%;
+}
+li{
+  text-align: left;
+  font-size: 1.4em;
+  font-family: 'EB Garamond', sans-serif;
+
+}
